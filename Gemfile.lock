@@ -93,6 +93,11 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.9)
     crass (1.0.6)
+    deface (1.8.1)
+      nokogiri (>= 1.6)
+      polyglot
+      rails (>= 5.2)
+      rainbow (>= 2.1.0)
     devise (4.8.0)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -162,6 +167,7 @@ GEM
     orm_adapter (0.5.0)
     paranoia (2.4.3)
       activerecord (>= 4.0, < 6.2)
+    polyglot (0.3.5)
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -322,6 +328,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 5.0)
+  deface (~> 1.8, >= 1.8.1)
   faker
   jbuilder (>= 2.11.3)
   jquery-rails
