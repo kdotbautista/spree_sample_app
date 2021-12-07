@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.1.4.1'
 # Use mysql as the database for Active Record
-gem 'mysql2', "0.4.10"
+gem 'mysql2', "0.5.0"
 # Use Puma as the app server
 gem 'puma', '~> 5.5', '>= 5.5.2'
 # Use SCSS for stylesheets
