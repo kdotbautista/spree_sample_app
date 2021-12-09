@@ -167,6 +167,7 @@ GEM
     orm_adapter (0.5.0)
     paranoia (2.4.3)
       activerecord (>= 4.0, < 6.2)
+    pg (1.2.3)
     polyglot (0.3.5)
     pry (0.14.1)
       coderay (~> 1.1)
@@ -334,6 +335,7 @@ DEPENDENCIES
   jquery-rails
   listen (~> 3.7)
   mysql2 (= 0.5.0)
+  pg (~> 1.2, >= 1.2.3)
   pry-nav
   puma (~> 5.5, >= 5.5.2)
   rails (~> 6.1.4.1)
